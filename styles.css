@@ -55,3 +55,5 @@ footer .links{display:flex;flex-wrap:wrap;gap:13px 22px;margin:22px 0}
 footer .links a{color:#f3c49b;text-decoration:none}
 @media(max-width:980px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-grid{gap:30px}.top>.wrap{align-items:flex-start;flex-direction:column;padding:16px 0}.top nav{justify-content:flex-start}}
 @media(max-width:680px){.wrap{width:min(100% - 28px,1160px)}.hero{padding:57px 0}.hero-grid{grid-template-columns:1fr}.hero-panel{padding:26px}.grid{grid-template-columns:1fr}.section{padding:49px 0}.card{padding:21px}.top nav{gap:10px 17px}.top nav a{font-size:.84rem}}
+
+.product-photo{display:block;width:100%;height:190px;object-fit:contain;border-radius:12px;background:#fff;margin-bottom:15px}

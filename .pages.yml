@@ -1,0 +1,41 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: products
+    label: Products
+    type: file
+    path: data/products.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Product Name
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - Air Fryers
+            - Coffee Makers
+            - Blenders
+            - Toaster Ovens
+      - name: description
+        label: Product Description
+        type: text
+        required: true
+      - name: image
+        label: Product Image (only use images you have rights to use)
+        type: image
+        required: false
+      - name: affiliate_url
+        label: Amazon Affiliate Link
+        type: string
+        required: true
+      - name: published
+        label: Publish on Website
+        type: boolean
+        default: true

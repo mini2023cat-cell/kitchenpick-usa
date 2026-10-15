@@ -1,0 +1,8 @@
+KitchenPick USA — Pages CMS Product Editor
+
+1. Upload the contents of this ZIP to the ROOT of GitHub repo mini2023cat-cell/kitchenpick-usa, preserving folders: data/products.json, media/.gitkeep, .pages.yml, products.js, index.html, styles.css and existing pages.
+2. Wait for Netlify deploy to publish.
+3. Go to https://app.pagescms.org/; Sign in with GitHub, grant access ONLY to kitchenpick-usa, select the repository, branch main.
+4. Open Products. Add a product to the list, complete its fields and save. Pages CMS writes data/products.json to GitHub; Netlify redeploys.
+5. Product images must be owned/licensed/authorized. Do not copy Amazon images manually without permission or approved Amazon tools.
+6. Your public site has no /admin login: the management panel is https://app.pagescms.org/.
