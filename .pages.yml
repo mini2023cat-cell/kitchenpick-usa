@@ -23,6 +23,7 @@ content:
             - Coffee Makers
             - Blenders
             - Toaster Ovens
+            - Cookware
       - name: description
         label: Product Description
         type: text
